@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Groovy: the each method on collections returns null, rather than the modified collection. This can be unexpected for programmers used to languages where similar methods return the modified collection directly.  The bug.groovy file shows the erroneous behavior, while bugSolution.groovy demonstrates a solution using collect or an explicit loop.
+
+This simple example highlights a subtle difference between Groovy's collection processing and what some programmers might expect. Understanding this behavior is crucial to avoid unexpected null pointer exceptions or other similar issues.
